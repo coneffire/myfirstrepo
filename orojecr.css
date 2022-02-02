@@ -1,0 +1,159 @@
+body {
+  color: 40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+
+h1 {
+  font-size: 5.625em;
+  margin: 0;
+  color: #66bfbf;
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #f8d4ec;
+  position: relative;
+  padding-top: 100px;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+  font-family: "Lobster", cursive;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #19bbbb;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+
+span {
+  color: crimson;
+}
+a {
+  color: #441544;
+  font-family: "Mochiy Pop P One", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #f7e8f7;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+p {
+  line-height: 2;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.bottom-container {
+  background-color: rgb(243, 222, 214);
+  padding: 50px 0 20px;
+}
+
+.botton-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 350px;
+  top: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.webimage {
+  width: 25%;
+  float: left; /*using when its necessary*/
+  margin-right: 30px;
+  border-radius: 50%;
+}
+
+.phpimage {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 50%;
+}
+/*
+clear example
+.pragh-description {
+  clear: right;
+}
+*/
+.giphy {
+  width: 9%;
+  border-radius: 50%;
+  background-color: chocolate;
+}
+
+.btn {
+  background: #2e7cb3;
+  background-image: -webkit-linear-gradient(top, #2e7cb3, #7a848c);
+  background-image: -moz-linear-gradient(top, #2e7cb3, #7a848c);
+  background-image: -ms-linear-gradient(top, #2e7cb3, #7a848c);
+  background-image: -o-linear-gradient(top, #2e7cb3, #7a848c);
+  background-image: linear-gradient(to bottom, #2e7cb3, #7a848c);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #000000;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #11999e;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3a4a54);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3a4a54);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3a4a54);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3a4a54);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3a4a54);
+  text-decoration: none;
+}
+.contact-msg {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.contact-me {
+}
+.bottom-container {
+  background-color: rgb(252, 151, 255);
+  margin-top: 20px;
+}
+
+.copyright-msg {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: darkgray;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto;
+}
